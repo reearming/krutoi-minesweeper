@@ -1,1 +1,2 @@
 # krutoi-minesweeper
+tui minesweeper
