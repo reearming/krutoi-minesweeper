@@ -106,6 +106,8 @@ int main()
 
     bool allMatch = false; // Flag to check if all marked cells match bomb locations
     while (true) {
+        printf("\033[H\033[2J");
+        fflush(stdout); 
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if (i * width + j != selected) {
